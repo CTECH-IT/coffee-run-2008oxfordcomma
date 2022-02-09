@@ -16,5 +16,5 @@
     let formHandler = new FormHandler(FORM_SELECTOR);
     formHandler.addSubmitHandler(myTruck.createOrder.bind(myTruck));
     console.log(formHandler);
-
+    
 })(window);
