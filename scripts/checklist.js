@@ -68,7 +68,7 @@
         $div.append($label);
 
         this.$element = $div;
-    }
+    };
 
     // Add the CheckList to the App namespace
     App.CheckList = CheckList;
