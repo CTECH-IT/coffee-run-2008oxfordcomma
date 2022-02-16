@@ -24,7 +24,7 @@
         let customerIdArray = Object.keys(this.db.getAll());
 
         console.log('Truck #' + this.truckId + ' has pending orders:');
-        // go throught the list of emials and get the associated order
+        // go through the list of emails and get the associated order
         customerIdArray.forEach(function (id) {
             console.log(this.db.get(id));
         }.bind(this));
